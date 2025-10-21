@@ -1,4 +1,4 @@
-<h1 align="center">Estudos em Java <img src="https://img.icons8.com/color/512/java-coffee-cup-logo--v2.png"/></h1>
+<h1 align="center">Estudos em Java <img width="54px" height="54px" src="https://img.icons8.com/color/512/java-coffee-cup-logo--v2.png"/></h1>
 
 Este repositório contém uma coleção de estudos, exemplos e projetos desenvolvidos em Java. O objetivo é compartilhar conhecimento e práticas recomendadas para o desenvolvimento em Java.
 
