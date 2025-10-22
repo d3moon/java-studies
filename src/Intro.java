@@ -99,7 +99,40 @@ public class Intro {
             System.out.println("This is an infinite do while loop");
             start--;
         } while (start == 2);
+
+
+        int[] lista = {1,2,3,4,5};
+
+        for(int num: lista){
+            System.out.println("Número da lista: " + num);
+        }
+
     }
+
+    public static void casting(){
+        /*
+        * Type casting é o processo de converter um tipo de dado em outro.
+        * Em Java, existem dois tipos principais de casting: casting implícito e casting explícito.
+        * - Casting implícito ocorre quando o compilador converte automaticamente um tipo de dado menor para um tipo maior (por exemplo, de int para long).
+        * - Casting explícito é quando o programador força a conversão de um tipo maior
+        * - Uma classe wrapper é uma classe que encapsula um tipo de dado primitivo, fornecendo métodos e funcionalidades adicionais.
+        * */
+
+        int a = 100;
+        long b = a; // casting implícito de int para long
+        int c = (int) b; // casting explícito de long para int
+
+        String numStr = "123";
+        int num = Integer.parseInt(numStr); // casting explícito de String para int -> Interger é uma classe wrapper para o tipo primitivo int
+        String numStrUpdated = Integer.toString(num); // convertendo int para String usando a classe wrapper Integer
+        // verificando os tipos
+        System.out.println(((Object) numStr).getClass().getSimpleName());       // String
+        System.out.println(((Object) num).getClass().getSimpleName());          // Integer (autoboxing)
+        System.out.println(((Object) numStrUpdated).getClass().getSimpleName()); // String
+
+    }
+
+
 
 
 
@@ -109,5 +142,6 @@ public class Intro {
         //vectors();
         //arrayList();
         //loops();
+        //casting();
     }
 }
